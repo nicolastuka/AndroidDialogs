@@ -1,0 +1,13 @@
+{
+  "name": "AndroidDialogs",
+  "url": "http://www.milkogames.xyz",
+  "license": "MIT",
+  "tags": [],
+  "description": "Helper to implements UI Dialogs and Toast on Android",
+  "version": "1.0.0",
+  "releasenote": "",
+  "contributors": ["nicolastuka"],
+  "dependencies": {
+
+  }
+}
