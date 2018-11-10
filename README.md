@@ -7,7 +7,7 @@ Helper to implements UI Dialogs and Toast on Android.
 
 ### Set up haxelib in .XML
 
-<haxelib name="androiddialogs" />
+``<haxelib name="androiddialogs" />``
 
 ### Simple Example Use Extension (Toast):
 
