@@ -125,6 +125,10 @@ public class AndroidDialogs extends Extension {
 
 	public static void ShowDialogSelectMultiple (String t, String[] op, HaxeObject hxo) {
 		final String[] items = new String[op.length];
+		final boolean[] selecteds = new boolean[op.length];
+		for (int i = 0; i < op.length; i++) {
+			selecteds[i] = false;
+		}
 		for (int i = 0; i < op.length; i++) {
 			items[i] = op[i];
 		}
@@ -137,7 +141,8 @@ public class AndroidDialogs extends Extension {
 		        dialog.setTitle(title);  
 		        dialog.setMultiChoiceItems(items, null, new DialogInterface.OnMultiChoiceClickListener() {
 		            public void onClick(DialogInterface dialog, int item, boolean isChecked) {
-		                objHaxe.call("onOptionMultipleSelected", new Object[]{items[item]});
+		            	selecteds[item] = isChecked;
+		                objHaxe.call("onOptionMultipleSelected", new Object[]{selecteds});
 		            }  
 		        });  
 		        dialog.show();

@@ -113,10 +113,11 @@ class SimpleExampleDialogMultipleSelection
 
     function OtherFunctionGetResult():Void
     {
-        //get string user selection
-        .
-        .
-        .
+        //get value boolean user selection
+        for (valueBoolean in AndroidDialogs.objHaxe.answersOptionsMultipleSelected)
+        {
+            trace("FLAG: " + valueBoolean);
+        }
     }
 }
 
