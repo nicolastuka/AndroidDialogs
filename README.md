@@ -3,7 +3,7 @@ Helper to implements UI Dialogs and Toast on Android.
 
 # Installation
 
-· haxelib install androiddialogs
+``haxelib install androiddialogs``
 
 ### Set up haxelib in .XML
 
