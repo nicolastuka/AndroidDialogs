@@ -1,6 +1,6 @@
 {
   "name": "AndroidDialogs",
-  "url": "http://www.milkogames.xyz",
+  "url": "https://github.com/nicolastuka/AndroidDialogs",
   "license": "MIT",
   "tags": [],
   "description": "Helper to implements UI Dialogs and Toast on Android",
