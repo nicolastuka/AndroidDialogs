@@ -70,9 +70,7 @@ class SimpleExampleDialogRadioButton
         names_players.push("Leonardo Ponzio");
         /*
             param: Title dialog.
-            param: Message dialog.
-            param: Caption confirm button dialog.
-            param: Caption cancel button dialog.
+            param: Array String values
         */
         AndroidDialogs.ShowAlertSelectOption("Title", names_players);
     }
@@ -104,9 +102,7 @@ class SimpleExampleDialogMultipleSelection
         names_players.push("Leonardo Ponzio");
         /*
             param: Title dialog.
-            param: Message dialog.
-            param: Caption confirm button dialog.
-            param: Caption cancel button dialog.
+            param: Array String values
         */
         AndroidDialogs.ShowAlertMultipleSelectOption("Title", names_players);
     }
