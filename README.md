@@ -5,11 +5,15 @@ Helper to implements UI Dialogs and Toast on Android.
 
 · haxelib install androiddialogs
 
+### Set up haxelib in .XML
+
+<haxelib name="androiddialogs" />
+
 ### Simple Example Use Extension (Toast):
 
 ```haxe
 
-import AndroidDialogs.AndroidDialogs;
+import extension.androiddialogs.AndroidDialogs;
 
 class SimpleExampleToast
 {
@@ -24,7 +28,7 @@ class SimpleExampleToast
 
 ```haxe
 
-import AndroidDialogs.AndroidDialogs;
+import extension.androiddialogs.AndroidDialogs;
 
 class SimpleExampleDialogConfirmation
 {
@@ -52,7 +56,7 @@ class SimpleExampleDialogConfirmation
 
 ```haxe
 
-import AndroidDialogs.AndroidDialogs;
+import extension.androiddialogs.AndroidDialogs;
 
 class SimpleExampleDialogRadioButton
 {
@@ -86,7 +90,7 @@ class SimpleExampleDialogRadioButton
 
 ```haxe
 
-import AndroidDialogs.AndroidDialogs;
+import extension.androiddialogs.AndroidDialogs;
 
 class SimpleExampleDialogMultipleSelection
 {
