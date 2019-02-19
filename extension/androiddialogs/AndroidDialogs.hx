@@ -1,7 +1,7 @@
 package extension.androiddialogs;
 
 #if (android && openfl)
-	import openfl.utils.JNI;
+	import lime.system.JNI;
 #end
 
 class AndroidDialogs {
