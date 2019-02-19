@@ -19,7 +19,7 @@ class SimpleExampleToast
 {
     function AnyFuntion():Void
     {
-        AndroidDialogs.ShowToast("Hola putin", AndroidDialogs.LENGTH_LONG);//or LENGTH_SHORT duration
+        AndroidDialogs.ShowToast("Hello Haxe Programmer!", AndroidDialogs.LENGTH_LONG);//or LENGTH_SHORT duration
     }
 }
 ```
